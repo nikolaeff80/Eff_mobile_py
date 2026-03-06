@@ -68,3 +68,4 @@ class RolePermission(models.Model):
         unique_together = ("role", "permission")
         verbose_name = "Связь роль-право"
         verbose_name_plural = "Связи роль-право"
+        
